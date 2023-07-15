@@ -8,7 +8,6 @@ public class task_01_01 {
         Owner owner  =new Owner("Вася");
         Cat oneMoreCat = new Cat("Кекс", 4, owner);
         oneMoreCat.greet(owner);
-
     }
 }
 
