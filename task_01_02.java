@@ -1,7 +1,6 @@
 public class task_01_02 {
-    static Rectangle rct = new Rectangle();
-
     public static void main(String[] args) {
+        Rectangle rct = new Rectangle();
         rct.Print();
         rct.setLength(13);
         rct.setWidth(51);
