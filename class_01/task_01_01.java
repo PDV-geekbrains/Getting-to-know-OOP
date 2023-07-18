@@ -1,3 +1,4 @@
+package class_01;
 public class task_01_01 {
     public static void main(String[] args) {
         Cat kitty = new Cat();
