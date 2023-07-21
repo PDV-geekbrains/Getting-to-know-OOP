@@ -1,6 +1,6 @@
 package class_02;
 
-/** Класс описывает сущность Посетитель бибдиотеки. */
+/** Класс описывает сущность Посетитель. */
 public class Client implements IClient {
     private String fullName;
 
