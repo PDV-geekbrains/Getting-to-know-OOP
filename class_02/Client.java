@@ -5,15 +5,8 @@ package class_02;
  * библиотеки.
  */
 public interface Client {
-    boolean setLibraryCardNumber(Integer number);
+    
+    void setFullName(String name);
 
-    Integer getLibraryCardNumber();
-
-    void setFirstName(String name);
-
-    String getFirstName();
-
-    void setLastName(String name);
-
-    String getLastName();
+    String getFullName();
 }
