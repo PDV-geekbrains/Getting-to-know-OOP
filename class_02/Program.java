@@ -3,6 +3,8 @@ package class_02;
 public class Program {
     public static void main(String[] args) {
         Library library = getLibrary();
+        
+        // Выводит информацию о библиотеке.
         library.printInfo();
     }
     
@@ -44,6 +46,7 @@ public class Program {
         library.addNewspaper(new Newspaper("Метро"));
     }
 
+    /** Наполняет библиотеку посетителями. */
     private static void addClientsToLibrary(Library library) {
         library.addClient(new Client("Пётр Петров"));
         library.addClient(new Client("Иван Иванов"));
