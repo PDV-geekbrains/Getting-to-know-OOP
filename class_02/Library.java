@@ -1,5 +1,9 @@
 package class_02;
 
+/**
+ * Интерфейс описывает общие параметры
+ * сущности Библиотека.
+ */
 public interface Library {
 
     String getName();
@@ -8,7 +12,7 @@ public interface Library {
 
     Address getAddress();
 
-    void setAddress(Address address);
+    boolean setAddress(Address address);
 
     String getRegularHours();
 
