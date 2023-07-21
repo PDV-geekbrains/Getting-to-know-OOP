@@ -12,9 +12,5 @@ public interface ILibrary {
 
     IAddress getAddress();
 
-    boolean setAddress(IAddress address);
-
-    String getRegularHours();
-
-    void setRegularHours(String getRegularHours);
+    void setAddress(IAddress address);
 }
