@@ -3,7 +3,7 @@ package class_02;
 /**
  * Интерфейс определяет адрес библиотеки.
  */
-public interface Address {
+public interface IAddress {
     void setCity(String city);
 
     String getCity();

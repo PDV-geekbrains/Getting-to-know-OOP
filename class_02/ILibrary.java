@@ -4,15 +4,15 @@ package class_02;
  * Интерфейс описывает общие параметры
  * сущности Библиотека.
  */
-public interface Library {
+public interface ILibrary {
 
     String getName();
 
     void setName(String name);
 
-    Address getAddress();
+    IAddress getAddress();
 
-    boolean setAddress(Address address);
+    boolean setAddress(IAddress address);
 
     String getRegularHours();
 

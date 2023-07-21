@@ -3,7 +3,7 @@ package class_02;
 /**
  * Интерфейс описывает сущность Книга.
  */
-public interface Book {
+public interface IBook {
     // Жёсткая обложка.
     int HARDCOVER = 1;
     // Мягкая облжка.

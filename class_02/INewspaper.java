@@ -1,7 +1,7 @@
 package class_02;
 
 /** Интерфейс описывает сущность Газета. */
-public interface Newspaper {
+public interface INewspaper {
     /** Газета выходит ежедненвно */
     int DAILY = 1;
     /** Газета выходит еженедельно. */
