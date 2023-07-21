@@ -1,10 +1,16 @@
 package class_02;
 
 public interface Library {
+
     String getName();
+
     void setName(String name);
-    String getAddress();
-    void setAddress(String address)
+
+    Address getAddress();
+
+    void setAddress(Address address);
+
     String getRegularHours();
+
     void setRegularHours(String getRegularHours);
 }
