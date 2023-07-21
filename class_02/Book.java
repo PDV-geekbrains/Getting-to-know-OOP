@@ -6,11 +6,10 @@ public class Book implements IBook {
     private String author;
     private Integer pagesNumber;
 
-    Book(PublicationType type,
-         String name,
+    Book(String name,
          String author,
          Integer pagesNumber) {
-        this.type = type;
+        this.type = PublicationType.BOOK;
         this.name=name;
         this.author = author;
         this.pagesNumber = pagesNumber;
