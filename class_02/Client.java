@@ -5,8 +5,13 @@ package class_02;
  * библиотеки.
  */
 public interface Client {
-    
+
     void setFullName(String name);
 
     String getFullName();
+}
+
+enum Gender {
+    MAN,
+    WOMAN
 }
