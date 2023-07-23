@@ -19,4 +19,8 @@ public interface IMagazine {
     String getMagazineName();
 
     void setMagazineName(String name);
+
+    Integer getPagesNumber();
+
+    void setPagesNumber(Integer number);
 }
