@@ -1,9 +1,11 @@
 package class_02;
 
-class Address implements IAddress {
+public class Address implements IAddress {
         private String city;
         private String street;
         private Integer number;
+
+        public Address(){}
 
         public void setCity(String city) {
             this.city = city;

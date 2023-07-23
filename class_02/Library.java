@@ -12,7 +12,7 @@ public class Library implements ILibrary {
     private List<Newspaper> newspapers;
     private List<Client> clients;
 
-    Library(IAddress address) {
+    public Library(IAddress address) {
         this.books = new LinkedList<Book>();
         this.newspapers = new ArrayList<Newspaper>();
         this.clients = new ArrayList<Client>();

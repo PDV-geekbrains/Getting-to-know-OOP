@@ -11,7 +11,7 @@ public class Newspaper implements INewspaper {
      * @param type - тип издания.
      * @param name - название издания.
      */
-    Newspaper(String name) {
+    public Newspaper(String name) {
         this.type = PublicationType.NEWSPAPER;
         this.name = name;
     }

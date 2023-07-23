@@ -9,7 +9,7 @@ public class Client implements IClient {
      * Задаёт полное имя клиента.
      * @param fullName - полное имя клиента.
      */
-    Client(String fullName) {
+    public Client(String fullName) {
         this.fullName = fullName;
     }
  
