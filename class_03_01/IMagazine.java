@@ -12,5 +12,11 @@ public interface IMagazine {
 
     PublicationType getPublicationType();
 
+    default PublicationPeriod getPublicationPeriod() {
+        return PublicationPeriod.WEEKLY;
+    }
+    
+    String getMagazineName();
 
+    void setMagazineName(String name);
 }
