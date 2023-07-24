@@ -24,7 +24,7 @@ public class Program {
         addBooksToLibrary(library);
         addNewspapersToLibrary(library);
         addClientsToLibrary(library);
-        addMonthlyMagazines(library);
+        addMagazines(library);
         return library;
     }
 
@@ -53,10 +53,11 @@ public class Program {
         library.addNewspaper(new Newspaper("Метро"));
     }
 
-    /** Наполняет библиотеку ежемесячными журналами. */
-    private static void addMonthlyMagazines(Library library) {
-        library.addMonthlyMagazine(new MonthlyMagazine("Рога и копыта", 21));
-        library.addMonthlyMagazine(new MonthlyMagazine("Весёлый молочник", 231));
+    /** Наполняет библиотеку журналами. */
+    private static void addMagazines(Library library) {
+        library.addMagazine(new MonthlyMagazine("Рога и копыта", 21));
+        library.addMagazine(new MonthlyMagazine("Весёлый молочник", 231));
+        library.addMagazine(new WeeklyMagazine("Охотник", 125));
     }
 
     /** Наполняет библиотеку посетителями. */
