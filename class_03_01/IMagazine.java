@@ -9,18 +9,13 @@ public interface IMagazine {
     /** Тип периодического издания. */
     static final PublicationType TYPE = PublicationType.MAGAZINE;
     
-
     PublicationType getPublicationType();
 
     default PublicationPeriod getPublicationPeriod() {
-        return PublicationPeriod.WEEKLY;
+        return PublicationPeriod.WEEK;
     }
     
     String getMagazineName();
 
-    void setMagazineName(String name);
-
     Integer getPagesNumber();
-
-    void setPagesNumber(Integer number);
 }
