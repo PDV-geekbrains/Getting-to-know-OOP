@@ -1,5 +1,9 @@
 # Знакомство с ООП
 
+### Урок 3. Некоторые стандартные интерфейсы Java и примеры их использования
+
+* [Задача 1](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_03_01/Program.java)
+
 ### Урок 2. Принципы ООП Абстракция и интерфейсы. Пример проектирования
 
 * [Проект "Библиотека" включает интерфейсы: библиотека, адрес, книга, газета, посетитель](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_02/Program.java)
