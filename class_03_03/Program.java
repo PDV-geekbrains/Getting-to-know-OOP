@@ -32,7 +32,6 @@ public class Program {
      * @return - отсортированный список.
      */
     private static List<Toy> getSortedList(List<Toy> toys, ToyComparator comparator) {
-        //List<Toy> sortedList = new ArrayList<>();
         Collections.sort(toys, comparator);
         return toys;
     }
