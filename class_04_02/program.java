@@ -9,7 +9,7 @@ public class program {
     public static void main(String[] args) {
         ArrayList<Integer> listOfIntegers = getArrayOfIntegers();
         ArrayList<String> listOfStrings = getArrayOfStrings();
-        
+
         printArray(listOfIntegers);
         printArray(listOfStrings);
     }
@@ -20,12 +20,12 @@ public class program {
             System.out.println(item);
     }
     
-    /** Метод возвращает массив случайных элеметов типа Integer. */
+    /** Метод возвращает массив элеметов типа Integer. */
     private static ArrayList<Integer> getArrayOfIntegers() {
         return new ArrayList<Integer>(List.of(1, 2, 3));
     }
 
-    /** Метод возвращает массив случайных элеметов типа String. */
+    /** Метод возвращает массив элеметов типа String. */
     private static ArrayList<String> getArrayOfStrings() {
         return new ArrayList<String>(List.of("one", "two", "three"));
     }
