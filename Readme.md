@@ -2,7 +2,7 @@
 
 ### Урок 4. ООП: Обобщения. ч1
 
-* [Задача 1. Реализация обобщённого метода printElement.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_01/program.java)
+* [Задача 1. Реализация обобщённого метода <T>printElement().](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_01/program.java)
 
 ### Урок 3. Некоторые стандартные интерфейсы Java и примеры их использования
 
