@@ -5,6 +5,7 @@
 * [Задача 1. Реализация обобщённого метода \<T\>printElement().](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_01/program.java)
 * [Задача 2. Реализация обобщённого метода \<T\>printArray().](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_02/program.java)
 * [Задача 3. Использование обобщённого метода для нахождения максимального значения.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_03/program.java)
+* [Задача 4. Работа с универсальным контейнером DataContainer\<T\>.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_04_04/Program.java)
 
 ### Урок 3. Некоторые стандартные интерфейсы Java и примеры их использования
 
