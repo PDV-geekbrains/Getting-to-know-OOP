@@ -2,8 +2,7 @@ package class_04_01;
 
 public class program {
     /** 
-     * Последовательный ввод на консоль данных
-     * разных типов.
+     * Последовательный вывод на консоль данных разных типов.
      */
     public static void main(String[] args) {
         printElement(123);
