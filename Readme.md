@@ -2,7 +2,7 @@
 
 ### Урок 6. ООП Дизайн и Solid
 
-Схема изменений в коде приведена на рис. [schema1](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_06_01/schema1.png)
+Схема изменений в коде приведена на рис. [schema1.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_06_01/schema1.png) Код после рефакторинга: [link.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_06_01/Program.java)
 
 1. Добавление двух (специализированных) интерфейсов вместо одного реализует принцип разделения интерфейсов.
 2. Использование класса, реализующего интерфейс, соответствует принципу открытости для дополнения и закрытости для изменений.
