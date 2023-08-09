@@ -1,5 +1,9 @@
 # Знакомство с ООП
 
+### Урок 6. ООП Дизайн и Solid
+
+Схема изменений в коде приведена на рис. [schema1]()
+
 ### Урок 5. От простого к практике
 
 * [Задача 1. Простой калькулятор.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_05_01/Program.java)
