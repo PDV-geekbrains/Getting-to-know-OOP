@@ -1,5 +1,9 @@
 # Знакомство с ООП
 
+### Урок 7. ООП Дизайн и Solid ч.2
+
+* [Задача. Проект калькулятора комплексных чисел.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_07_01/Program.java)
+
 ### Урок 6. ООП Дизайн и Solid
 
 Схема изменений в коде приведена на рис. [schema1.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_06_01/schema1.png) Код после рефакторинга: [link.](https://github.com/PDV-geekbrains/Getting-to-know-OOP/blob/master/class_06_01/Program.java)
